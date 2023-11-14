@@ -13,6 +13,9 @@ export default {
         'light': '#d0d6f9',
         
       },
+     backgroundImage: { 
+         'background1': "url('/Images/pp.jpg')" 
+      },
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
         'sans-cond': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],

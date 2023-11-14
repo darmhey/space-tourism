@@ -1,15 +1,11 @@
-import './App.css'
+import './App.css';
 
 function App() {
-  
-
   return (
-    <>
-       <h1 className="text-3xl font-sans-cond font-normal underline">
-      Hello world!
-    </h1>
-    </>
-  )
+    <div className="bg-cover bg-background1 w-screen h-screen ">
+      <h1>Hello world!</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
