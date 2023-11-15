@@ -1,11 +1,8 @@
 function Navigation (){
-
   return (
-   
-      <h1 className="text-3xl font-sans-cond font-normal underline">
-        Hello world!
-      </h1>
-    
+      <h1 className="text-3xl text-center text-light font-sans-cond font-normal ">
+        NAVIGATION BAR
+      </h1> 
   )
 }
 
