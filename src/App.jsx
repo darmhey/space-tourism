@@ -3,8 +3,6 @@ import Destination from './pages/destination/destination'
 // import Home from './pages/home/Home'
 
 function App() {
-  
-
   return (
     <>
       <Destination />
@@ -12,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

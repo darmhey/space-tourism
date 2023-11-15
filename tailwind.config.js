@@ -31,6 +31,7 @@ export default {
         'light': '#d0d6f9',
         
       },
+     
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
         'sans-cond': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
