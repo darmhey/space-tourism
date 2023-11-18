@@ -14,12 +14,14 @@ export default {
         
       },
      backgroundImage: { 
-         'background1': "url('/Images/pp.jpg')" 
+         'home-background1': "url('/assets/home/background-home-desktop.jpg')" ,
+         'home-background2': "url('/assets/home/background-home-tablet.jpg')",
+         'home-background3': "url('/assets/home/background-home-mobile.jpg')"
       },
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
-        'sans-cond': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Bellefair', 'ui-serif', 'Georgia', ],
+        'Barlow': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
+        'Bellefair': ['Bellefair', 'ui-serif', 'Georgia', ],
         
       }
     },
