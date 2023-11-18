@@ -1,11 +1,12 @@
-import './App.css'
-import Destination from './pages/destination/destination'
-// import Home from './pages/home/Home'
+// import Destination from './pages/destination/destination'
+// import Crew from './pages/crew/crew'
+
+import Home from './pages/home/Home'
 
 function App() {
   return (
     <>
-      <Destination />
+      <Home />
     </>
   )
 }

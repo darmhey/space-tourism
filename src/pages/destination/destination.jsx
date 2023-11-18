@@ -121,7 +121,7 @@ function Destination () {
           </div>
           </div>
 
-          <div className=" h-8"></div>
+          <div className=" lg:h-16 h-8"></div>
         
         </div>
         
