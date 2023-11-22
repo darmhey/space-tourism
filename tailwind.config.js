@@ -16,9 +16,12 @@ export default {
       '12': '0.75rem',
       '56': '3.5rem',
       '15': '0.94rem',
+      '32': '2rem',
       '14': '0.875rem',
+      '24': '1.5rem',
       '28': '1.75rem',
       '20': '1.25rem',
+      '40': '2.5rem',
       '80': '5rem',
       '18': '1.125rem',
       '100': '6.25rem',
@@ -26,17 +29,13 @@ export default {
     extend: {
       colors: {
         'black': '#0b0d18',
+        'bck': '#979797',
         'black-accent': '#45474f',
         'white': '#ffffff',
         'light': '#d0d6f9',
         
       },
-     
-     backgroundImage: { 
-         'home-background1': "url('/assets/home/background-home-desktop.jpg')" ,
-         'home-background2': "url('/assets/home/background-home-tablet.jpg')",
-         'home-background3': "url('/assets/home/background-home-mobile.jpg')"
-      },
+
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
         'Barlow': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
@@ -44,6 +43,9 @@ export default {
         
       },
       backgroundImage: {
+        'home-background1': "url('/assets/home/background-home-desktop.jpg')" ,
+         'home-background2': "url('/assets/home/background-home-tablet.jpg')",
+         'home-background3': "url('/assets/home/background-home-mobile.jpg')",
         'destination-mobile': "url('/assets/destination/background-destination-mobile.jpg')",
         'destination-tablet': "url('/assets/destination/background-destination-tablet.jpg')",
         'destination-desktop': "url('/assets/destination/background-destination-desktop.jpg')",
@@ -52,8 +54,10 @@ export default {
         'crew-desktop': "url('/assets/crew/background-crew-desktop.jpg')",
       },
       gridTemplateColumns: {
-        'template': 'minmax(10rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(10rem, 1fr)',
-
+        'template': 'minmax(8rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(8rem, 1fr)',
+      },
+      gridTemplateRows: {
+        'template': 'min-content 1fr',
       }
     },
   },
