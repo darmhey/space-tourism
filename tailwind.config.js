@@ -32,11 +32,7 @@ export default {
         
       },
      
-     backgroundImage: { 
-         'home-background1': "url('/assets/home/background-home-desktop.jpg')" ,
-         'home-background2': "url('/assets/home/background-home-tablet.jpg')",
-         'home-background3': "url('/assets/home/background-home-mobile.jpg')"
-      },
+   
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
         'Barlow': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
@@ -44,12 +40,16 @@ export default {
         
       },
       backgroundImage: {
+        'home-background1': "url('/assets/home/background-home-desktop.jpg')" ,
+        'home-background2': "url('/assets/home/background-home-tablet.jpg')",
+        'home-background3': "url('/assets/home/background-home-mobile.jpg')",
         'destination-mobile': "url('/assets/destination/background-destination-mobile.jpg')",
         'destination-tablet': "url('/assets/destination/background-destination-tablet.jpg')",
         'destination-desktop': "url('/assets/destination/background-destination-desktop.jpg')",
         'crew-mobile': "url('/assets/crew/background-crew-mobile.jpg')",
         'crew-tablet': "url('/assets/crew/background-crew-tablet.jpg')",
         'crew-desktop': "url('/assets/crew/background-crew-desktop.jpg')",
+        'technology-desktop': "url('/assets/technology/background-technology-desktop.jpg')",
       },
       gridTemplateColumns: {
         'template': 'minmax(10rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(10rem, 1fr)',

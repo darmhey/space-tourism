@@ -14,14 +14,13 @@ function Destination () {
     <>
  
       
-      <div className=" px-6 bg-destination-mobile bg-cover bg-no-repeat lg:h-screen
+      <div className=" px-6 bg-destination-mobile bg-cover bg-no-repeat 
         md:bg-destination-tablet lg:bg-destination-desktop lg:overflow-hidden 
       ">
         <div className=" h-16"></div>
           {/* <div className=" bg-black mb-8 ">
               <Navigation />
           </div> */}
-        
         <div className=" ">      
         <div className=" flex justify-center md:justify-start  lg:mt-24 md:mb-20 lg:mx-40">
           <h1 className=" md:text-20 md:tracking-3.38 lg:text-28 lg:tracking-4.72 pb-8 
@@ -43,7 +42,7 @@ function Destination () {
             <button 
             onClick={() => setActive(0)}
             aria-selected={active === 0 ? "true" : "false"} 
-              className="uppercase pb-1 border-black-accent    aria-selected:text-white 
+              className="uppercase pb-1 border-black-accent  aria-selected:text-white 
               aria-selected:border-white aria-selected:border-b-4 text-light lg:mr-8  mr-4 hover:border-b-4
               md:text-16 md:tracking-2.7 
               
