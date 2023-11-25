@@ -1,4 +1,4 @@
-/* import React, {useContext} from "react";
+import React, {useContext} from "react";
 import { LayoutContext } from "../LayoutContext/LayoutContext";
 import Navbar from "../nav/Navbar";
 const layout = ({children}) => {
@@ -13,4 +13,3 @@ const layout = ({children}) => {
 }
 
 export default layout
- */
