@@ -1,9 +1,6 @@
-import Navigation from "../../components/nav/Navigation";
-
 function Home() {
   return (
     <div className="bg-cover bg-home-background3 md:bg-home-background2 lg:bg-home-background1 w-screen h-screen overflow-x-hidden pb-8 lg:pb-16">
-      <Navigation />
       <div className="container mx-auto pt-16 md:pt-28 lg:pt-44 flex flex-col justify-center items-center text-center  lg:flex-row">
         {/* Left Content */}
         <div className="left-content w-full lg:w-3/5 lg:pr-8">

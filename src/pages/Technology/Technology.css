@@ -1,0 +1,26 @@
+/* Technology.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  padding-left: 150px; /* Set the left padding for the grid container */
+}
+
+.grid-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px; /* Adjust the gap between rows as needed */
+}
+
+.grid-right {
+  color: white;
+}
+
+.right-img {
+  width: 100%;
+  margin-right: 0; /* Remove any default margin */
+}
+
+.Terms {
+  border: 1px solid #FFFFFF;
+}
+

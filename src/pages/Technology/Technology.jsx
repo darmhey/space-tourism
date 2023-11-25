@@ -1,7 +1,7 @@
 // Technology.js
-"use client";
+'use client'
 import TechData from "../../../public/data/techdata";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../../components/nav/Navbar";
 import "./Technology.css";
 
@@ -31,7 +31,7 @@ const Technology = () => {
     return () => {
       window.removeEventListener("resize", updateScreenSize);
     };
-  }, []);
+  }, []); 
 
   return (
     <div className="bg-technology-desktop bg-no-repeat bg-cover  w-full h-full pb-24">
@@ -66,11 +66,10 @@ const Technology = () => {
                 2
               </li>
               <li
-                onClick={() => setCurrentSpace(2)}
-                className={`Terms  cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px]  rounded-full ${
-                  currentSpace === 2 ? "bg-white text-black" : ""
-                }`}
-              >
+              onClick={()=> setCurrentSpace(2)}
+              className={`Terms  cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px]  rounded-full ${
+                currentSpace === 2 ? 'bg-white text-black' : ''
+              }`}>
                 3
               </li>
             </ul>

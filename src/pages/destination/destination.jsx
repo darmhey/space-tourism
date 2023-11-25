@@ -1,4 +1,3 @@
-import Navigation from "../../components/nav/Navigation";
 import data from "../../../public/data/data";
 
 import { useState } from "react";
@@ -13,16 +12,19 @@ function Destination() {
         md:bg-destination-tablet lg:bg-destination-desktop lg:overflow-hidden 
       "
       >
-        {/* <div className="lg:h-0 h-16"></div> */}
-        <Navigation />
+        <div className=" h-16"></div>
+        {/* <div className=" bg-black mb-8 ">
+              <Navigation />
+          </div> */}
+
         <div className=" ">
-          <div className=" flex justify-center md:justify-start  lg:mt-12 md:mb-20 lg:mx-40">
+          <div className=" flex justify-center md:justify-start  lg:mt-24 md:mb-20 lg:mx-40">
             <h1
-              className=" md:text-20 md:tracking-3.38 lg:text-28  pb-4 
-          text-white uppercase font-Barlow text-16 tracking-2.7 leading-normal"
+              className=" md:text-20 md:tracking-3.38 lg:text-28 lg:tracking-4.72 pb-8 
+          text-white uppercase sans-cond text-16 tracking-2.7 leading-normal"
             >
               <span className="pr-4 font-bold text-black-accent">01</span>
-              Pick your destination
+              Pick your destination{" "}
             </h1>
           </div>
 
