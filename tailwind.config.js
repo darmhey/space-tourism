@@ -16,9 +16,12 @@ export default {
       '12': '0.75rem',
       '56': '3.5rem',
       '15': '0.94rem',
+      '32': '2rem',
       '14': '0.875rem',
+      '24': '1.5rem',
       '28': '1.75rem',
       '20': '1.25rem',
+      '40': '2.5rem',
       '80': '5rem',
       '18': '1.125rem',
       '100': '6.25rem',
@@ -26,13 +29,14 @@ export default {
     extend: {
       colors: {
         'black': '#0b0d18',
+        'bck': '#979797',
         'black-accent': '#45474f',
         'white': '#ffffff',
         'light': '#d0d6f9',
         
       },
      
-   
+     
       fontFamily: {
         'sans': ['Barlow', 'ui-sans-serif', 'system-ui'],
         'Barlow': ['Barlow Condensed', 'ui-sans-serif', 'system-ui'],
@@ -52,8 +56,10 @@ export default {
         'technology-desktop': "url('/assets/technology/background-technology-desktop.jpg')",
       },
       gridTemplateColumns: {
-        'template': 'minmax(10rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(10rem, 1fr)',
-
+        'template': 'minmax(8rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(8rem, 1fr)',
+      },
+      gridTemplateRows: {
+        'template': 'min-content 1fr',
       }
     },
   },
