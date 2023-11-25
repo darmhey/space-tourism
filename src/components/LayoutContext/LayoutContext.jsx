@@ -1,4 +1,4 @@
-/* 
+
 import React, { createContext, useState } from 'react';
 import Navbar from '../nav/Navbar';
 
@@ -18,4 +18,3 @@ const LayoutProvider = ({ children }) => {
 };
 
 export { LayoutContext, LayoutProvider };
- */

@@ -50,7 +50,7 @@ const Technology = () => {
             <ul className=" text-white flex flex-row justify-center items-center gap-x-4 md:gap-x-6 lg:flex-col lg:gap-x-0 gap-y-6">
               <li
                 onClick={() => setCurrentSpace(0)}
-                className={`Terms cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] rounded-full ${
+                className={`hover:border-2 hover:border-solid hover:border-white border border-solid border-white cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] rounded-full ${
                   currentSpace === 0 ? "bg-white text-black" : ""
                 }`}
               >
@@ -59,7 +59,7 @@ const Technology = () => {
 
               <li
                 onClick={() => setCurrentSpace(1)}
-                className={`Terms cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] rounded-full ${
+                className={`hover:border-2 hover:border-solid hover:border-white border border-solid border-white cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] rounded-full ${
                   currentSpace === 1 ? "bg-white text-black" : ""
                 }`}
               >
@@ -67,7 +67,7 @@ const Technology = () => {
               </li>
               <li
               onClick={()=> setCurrentSpace(2)}
-              className={`Terms  cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px]  rounded-full ${
+              className={`hover:border-2 hover:border-solid hover:border-white border border-solid border-white cursor-pointer flex items-center justify-center w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px]  rounded-full ${
                 currentSpace === 2 ? 'bg-white text-black' : ''
               }`}>
                 3

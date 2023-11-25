@@ -14,7 +14,7 @@ const Menu = [
 
   return (
     <div>
-      <nav className="flex flex-row items-center pl-4 md:pl-8 lg:space-x-20 md:space-x-2 text-[#D0D6F9] pt-4 lg:pt-8">
+      <nav className="flex fixed z-10 flex-row items-center  pl-4 md:pl-8 lg:space-x-20 md:space-x-2 text-[#D0D6F9] pt-4 lg:pt-8">
         <img
           src="/assets/shared/Group 2.svg"
           alt="logo"

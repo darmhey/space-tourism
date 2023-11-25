@@ -1,9 +1,8 @@
-import Navbar from "../../components/nav/Navbar"
 function Home (){
 
   return (
      <div className="bg-cover bg-home-background3 md:bg-home-background2 lg:bg-home-background1 w-screen h-screen overflow-x-hidden pb-8 lg:pb-16">
- <Navbar/>
+
       <div className='container mx-auto pt-16 md:pt-28 lg:pt-44 flex flex-col justify-center items-center text-center  lg:flex-row'>
         {/* Left Content */}
         <div className='left-content w-full lg:w-3/5 lg:pr-8'>
@@ -21,7 +20,7 @@ function Home (){
         </div>
 
         {/* Right Content */}
-        <div className='w-full right-content ml-auto  justify-center items-center flex pt-20 lg:pr-60'> {/* Adjusted padding for larger screens */}
+        <div className='w-full right-content  ml-auto  justify-center items-center flex pt-20 lg:pr-60'> {/* Adjusted padding for larger screens */}
           <img src="/assets/home/Group.png" alt="Description of the image" className="lg:ml-80 lg:mt-28 w-[150px] h-[150px] md:w-[244px] md:h-[242px] lg:w-[274px] lg:h-[274px]" />
         </div>
       </div>
