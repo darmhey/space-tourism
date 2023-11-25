@@ -1,3 +1,5 @@
+// import { Outlet, Link } from "react-router-dom";
+
 function Navigation() {
   return (
     <div>
@@ -18,7 +20,46 @@ function Navigation() {
           />
         </div>
         <div className="navbars hidden md:flex text-white md:text-sm  flex-row space-x-6  py-6 pr-8 md:bg-white md:bg-opacity-10 lg:bg-white lg:bg-opacity-10 lg:pl-20  lg:pr-40">
-          <div className="flex flex-row space-x-2 cursor-pointer">
+          <div className="">
+            <nav className="">
+              <ul className="flex flex-row gap-x-[45px] uppercase text-16">
+                <li>
+                  <a href="#">
+                    <span className=" pr-2 font-bold font-Barlow tracking-2.7">
+                      00
+                    </span>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className=" pr-2 font-bold font-Barlow tracking-2.7">
+                      01
+                    </span>
+                    Destination
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className=" pr-2 font-bold font-Barlow tracking-2.7">
+                      02
+                    </span>
+                    Crew
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span className=" pr-2 font-bold font-Barlow tracking-2.7">
+                      03
+                    </span>
+                    Technology
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          {/* <div className="flex flex-row space-x-2 cursor-pointer">
             <p className="hidden lg:block">00</p>
             <p>HOME</p>
           </div>
@@ -33,7 +74,7 @@ function Navigation() {
           <div className="flex flex-row space-x-2 cursor-pointer">
             <p className="hidden lg:block">03</p>
             <p>TECHNOLOGY</p>
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>

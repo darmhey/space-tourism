@@ -13,7 +13,7 @@ function Crew() {
         <div className=" lg:grid-cols-template lg:mx-[10rem]">
           <h1
             className=" md:text-20 md:tracking-3.38 lg:text-28 pb-14 pt-10 lg:pb-0 text-center md:text-left
-            text-white uppercase font-Barlow text-16 tracking-2.7 leading-none lg:mt-10 "
+            text-white uppercase font-Barlow text-16 tracking-2.7 lg:tracking-4.72 leading-normal lg:mt-10 "
           >
             <span className="pr-4 font-bold text-black-accent pb-8  ">02</span>
             Meet your crew
@@ -43,7 +43,7 @@ function Crew() {
                 {data.crew[active].bio}
               </p>
 
-              <div className="flex flex-row gap-6 pt-4 justify-center">
+              <div className="flex flex-row gap-6 pt-4 justify-center lg:justify-start">
                 <button
                   onClick={() => setActive(0)}
                   aria-selected={active === 0 ? "true" : "false"}
