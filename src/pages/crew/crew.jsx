@@ -1,21 +1,18 @@
-import Navigation from "../../components/nav/Navigation";
 import { useState } from "react";
 import data from "../../../public/data/data";
 
-// import data from "../../../public/data/data"
 function Crew() {
   const [active, setActive] = useState(1);
 
   return (
     <>
       <div className="bg-crew-mobile md:bg-crew-tablet lg:overflow-hidden lg:bg-crew-desktop bg-cover bg-no-repeat lg:px-0 px-10 ">
-        <Navigation />
-        <div className=" lg:grid-cols-template lg:mx-[10rem]">
+        <div className=" lg:grid-cols-template pt-32 lg:mx-[10rem]">
           <h1
-            className=" md:text-20 md:tracking-3.38 lg:text-28 pb-14 pt-10 lg:pb-0 text-center md:text-left
+            className=" md:text-20 md:tracking-3.38 lg:text-28 pb-14  lg:pb-0 text-center md:text-left 
             text-white uppercase font-Barlow text-16 tracking-2.7 lg:tracking-4.72 leading-normal lg:mt-10 "
           >
-            <span className="pr-4 font-bold text-black-accent pb-8  ">02</span>
+            <span className="pr-4 font-bold text-black-accent pb-4  ">02</span>
             Meet your crew
           </h1>
         </div>

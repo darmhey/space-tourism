@@ -1,15 +1,19 @@
-import React, {useContext} from "react";
+import { useContext } from "react";
 import { LayoutContext } from "../LayoutContext/LayoutContext";
-import Navbar from "../nav/Navbar";
-const layout = ({children}) => {
-    const {currentNavbar} = useContext(LayoutContext);
+// import Navbar from "../nav/Navbar";
+
+// eslint-disable-next-line react/prop-types
+const Layout = ({ children }) => {
+  const currentNavbar = useContext(LayoutContext);
 
   return (
     <div>
-      {currentNavbar || <Navbar/>}
+      <div>{currentNavbar}</div>
       <div>{children}</div>
     </div>
-  )
-}
+  );
+};
 
-export default layout
+export default Layout;
+
+// {currentNavbar || <Navbar />}
